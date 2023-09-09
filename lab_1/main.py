@@ -20,20 +20,21 @@ import pandas as pd
 # Task 1
 print('Task 1')
 arr1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-
+print(arr1)
 arr2 = np.array([1, 2, 3, 4], dtype='int')
-
+print(arr2)
 arr3 = np.arange(1, 16, 2)
-
+print(arr3)
 arr4 = np.zeros((2, 4), dtype=float)
-
+print(arr4)
 arr5 = np.linspace(0, 1, 5)
-
+print(arr5)
 arr6 = np.random.random((4, 3))
-
+print(arr6)
 arr7 = np.random.randint(0, 100, (4, 4))
-
+print(arr7)
 arr8 = np.empty(5)
+print(arr8)
 
 # Task 2
 print('Task 2')
