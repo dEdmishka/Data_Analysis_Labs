@@ -38,10 +38,15 @@ print(arr8)
 
 # Task 2
 print('Task 2')
+# Індексація, зріз одновимірного масиву
 print(arr2[1])
 print(arr2[-1])
 print(arr2[0:2])
+# Індексація, зріз багатовимірного масиву
+print(arr1[0, 1])
 print(arr1[0])
+print(arr1[0:3:2])
+print(arr1[0:2, 1:3])
 
 # Task 3
 print('Task 3')
