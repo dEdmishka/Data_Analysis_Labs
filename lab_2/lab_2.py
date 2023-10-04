@@ -47,7 +47,7 @@ older_mothers = data[data['mage35'] == 1]
 younger_mothers = data[data['mage35'] == 0]
 
 # Виконаємо t-тест
-t_statistic, p_value = stats.ttest_ind(older_mothers['Birthweight'], younger_mothers['Birthweight'])
+t_statistic, p_value = stats.ttest_ind(older_mothers['Birthweight'], younger_mothers['Birthweight'], alternative='less')
 
 # Виведемо результат тесту
 print("t-статистика:", t_statistic)
