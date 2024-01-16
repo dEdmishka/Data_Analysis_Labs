@@ -120,7 +120,7 @@ print('\nTask 2\n')
 kmeans_data = data[['total_bill', 'tip']]
 scaled_features = StandardScaler().fit_transform(kmeans_data)
 
-kmeans = KMeans(n_clusters=10, random_state=0, n_init=10)
+kmeans = KMeans(n_clusters=3, random_state=0, n_init=10)
 kmeans.fit(scaled_features)
 
 # Додавання міток кластерів до даних
